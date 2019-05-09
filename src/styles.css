@@ -29,7 +29,7 @@ heading {
   white-space: normal;
   position: fixed;
   left: 50%;
-  top: 80px;
+  top: 50px;
   transform: translate(-50%, -50%);
 }
 

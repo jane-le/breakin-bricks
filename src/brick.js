@@ -6,8 +6,8 @@ export default class Brick {
     this.gameHeight = game.gameHeight;
     this.game = game;
     this.image = document.getElementById("img-brick");
-    this.width = 83 ;
-    this.height = 30;
+    this.width = 83;
+    this.height = 20;
     this.position = position;
     this.markedForDeletion = false;
   }
