@@ -142,15 +142,15 @@ export default class Game {
       ctx.fillStyle = "rgba(255,255,255)";
       ctx.fill();
 
-      ctx.font = "30px Lato";
+      ctx.font = "20px Lato";
       ctx.fillStyle = "#433765";
       ctx.textAlign = "center";
       ctx.fillText(
         "please refresh the browser to try again",
         this.gameWidth / 2,
-        this.gameHeight / 2 + 125
+        this.gameHeight / 2 + 150
       );
-      ctx.fillText("gameover", this.gameWidth / 2, this.gameHeight / 2 + 150);
+      ctx.fillText("gameover", this.gameWidth / 2, this.gameHeight / 2 + 125);
     }
   }
 
